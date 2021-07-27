@@ -1,7 +1,7 @@
 {
     "require": {
-        "psr/container": "^1.0.0",
-        "league/container": "^3.1.2"
+        "psr/container": "^2.0.0",
+        "league/container": "^4.1.2"
     },
     "autoload": {
         "psr-4": {
