@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  php:
+    image: php:8.0.8
+    working_dir: /home/app
+    volumes:
+      - ./:/home/app
+    command: php index.php
